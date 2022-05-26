@@ -1,0 +1,1 @@
+C:\cpp\my_strcat\Debug\my_strcat.exe
