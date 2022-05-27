@@ -11,12 +11,13 @@ public:
 	bool isSquare();
 
 };
-Rectangle::Rectangle():Rectangle(1,1) {}
-Rectangle::Rectangle(int length):Rectangle(length,length) {}
-Rectangle::Rectangle(int w, int h) {
+Rectangle::Rectangle():Rectangle(1) {} // <= 위임 생성자
+Rectangle::Rectangle(int length):Rectangle(length,length) {} // <= 위임 생성자 / 타겟 생성자
+Rectangle::Rectangle(int w, int h) {  // <= 타겟 생성자
 	width = w;
 	height = h;
 }
+//Rectangle::Rectangle(int w, int h):width(w),width(h){} => 이것도 가능.
 bool Rectangle::isSquare() {
 	if (width == height) return true;
 	else return false;
