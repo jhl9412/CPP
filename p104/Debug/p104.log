@@ -1,2 +1,3 @@
 ﻿  main.cpp
+C:\cpp\p104\main.cpp(40,10): warning C4101: 'p' :참조되지 않은 지역 변수입니다.
   p104.vcxproj -> C:\cpp\p104\Debug\p104.exe
