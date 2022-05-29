@@ -1,0 +1,2 @@
+C:\Users\KCCI05\source\repos\p161\Debug\p161.exe
+C:\cpp\p161\Debug\p161.exe
